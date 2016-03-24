@@ -1,20 +1,15 @@
-h1, h2, h3 {
-	color: #8f0000;
-	/*text-align: center*/
-	page-break-before: always;
+h1, h2, h3 { color: #8f0000;}
+h3 {
+	border-bottom: 2px solid #8f0000;
+	margin-bottom: 0px;	
 }
-div {
-	/*border: 1px dotted #333;*/
-}
-p {
-	text-indent: 15px;
-}
+p {	text-indent: 15px; }
+
 .clearfix:after{
 	content: '';
 	display: table;
 	clear: both;
 }
-
 .wrapper {
 	width: 800px;
 	margin-top: 50px;
@@ -36,12 +31,9 @@ p {
 
 table {
 	width: 100%;
-	border-top: 2px solid #8f0000;
 	border-collapse: collapse;
 }
-tr { 
-	vertical-align: top;
-}
-td:nth-child(2) { text-align: right; }
-
+tr { vertical-align: top;}
+td { padding-left: 10px;}
+td:nth-child(2){ text-align: right; }
 .border-left {border-left: 2px solid #8f0000;}
