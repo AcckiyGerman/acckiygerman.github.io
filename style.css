@@ -1,4 +1,4 @@
-super,h1, h2, h3 { color: #8f0000;}
+h1, h2, h3 { color: #8f0000;}
 h3 {
 	border-bottom: 2px solid #8f0000;
 	margin-bottom: 0px;	
