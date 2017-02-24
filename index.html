@@ -5,9 +5,19 @@
 	<title>Gierman Dmytro CV</title>
 </head>
 <body>
-	<div class='wrapper'>
+<div class='wrapper'>
+		<!-- TAB MENU -->
+		<input type="radio" name="tab" id="tab-1" checked>
+		<label for="tab-1">CV</label>
+		<input type="radio" name="tab" id="tab-2">
+		<label for="tab-2">EXPERIENCE</label>
+		<input type="radio" name="tab" id="tab-3">
+		<label for="tab-3">CERTIFICATES</label>
+	
+		<div class="clearfix"></div>
 		<div class='head clearfix'>
 			<div class='contacts'>
+				<br>
 				<h2>Gierman, Dmytro - Junior Python Developer</h2>
 				<p>* 25.10.1982</p>
 				<br>
@@ -21,7 +31,9 @@
 				<img src='img/avatar.jpg'>
 			</div>
 		</div>
-		<div class='letter'>
+	<div class="content">
+		<!-- CV -->
+		<article class='tab-1'>
 			<p>Good Day.</p>
 			<p>Already at school I programmed small games in BASIC and I liked the feeling of creating
 				programs so much that in 2016 I decided to seriously study programming. My strong
@@ -62,8 +74,8 @@
 				successfully work together.</p>
 			<p>Yours faithfully, Dmytro Gierman</p>
 
-		</div>
-		<div class='workexp' >
+		</article>
+		<article class='tab-2'>
 			<h3>Work Experience</h3>
 			<table>
 				<tr>
@@ -161,7 +173,18 @@
 					</td>
 				</tr>
 			</table>
-		</div>
+		</article>
+		<article class="tab-3">
+			<h3>IT Certificates</h3>
+			<br>
+			<img src="sertificates/python_average.jpg">
+			<br>
+			<img src="sertificates/sysadmin.jpg">
+			<br>
+			<img src="sertificates/zntu.jpg">
+		</article>
 	</div>
+	<br class="clear:both" />
+</div>
 </body>
 </html>
